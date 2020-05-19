@@ -258,6 +258,8 @@ public class signup extends AppCompatActivity implements View.OnClickListener {
 
         if (pass.equals(cnfpass)){
             final String finalCategory = category;
+            final LoadingActivity cddd = new LoadingActivity(signup.this);
+            cddd.show();
             mAuth.createUserWithEmailAndPassword(email, pass)
                     .addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                         @Override
@@ -276,6 +278,7 @@ public class signup extends AppCompatActivity implements View.OnClickListener {
                                             Toast.makeText(getApplicationContext(), "Registered Successfully! Please check your email for verification!", Toast.LENGTH_LONG).show();
                                             user = mAuth.getCurrentUser();
                                             mref.child(user.getUid()).setValue(fireObj);
+                                            cddd.dismiss();
                                             Intent intent = new Intent(signup.this, login_screen.class);
                                             startActivity(intent);
                                             finish();

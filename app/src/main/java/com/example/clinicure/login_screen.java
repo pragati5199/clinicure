@@ -127,6 +127,7 @@ public class login_screen extends AppCompatActivity {
                                             inputPassword.setText("");
                                         } else {
                                             Toast.makeText(login_screen.this, "Please verify your email address!", Toast.LENGTH_SHORT).show();
+                                            cddd.dismiss();
                                         }
 
                                     }

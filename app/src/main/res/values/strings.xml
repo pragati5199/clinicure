@@ -10,7 +10,7 @@
     <string name="firstname"> "First Name(eg. Raj)"</string>
     <string name="Lastname">  "Last Name(eg. Prakash)"</string>
     <string name="Address">   "Address(house no/land mark)"</string>
-    <string name="dob">       "Age(eg. 25)"</string>
+    <string name="dob">       "Date of birth(dd/mm/yy)"</string>
     <string name="Contact">   "Contact No.(+91)"</string>
     <string name="altcontact">"Alternate Contact No.(+91)"</string>
     <string name="profile_text">Your following information will help us to serve you better</string>

@@ -154,7 +154,7 @@ public class symptom extends AppCompatActivity implements View.OnClickListener {
         drug_his = dataSnapshot.child(userID).child("medical_history/drug_his").getValue(String.class);
         allergy = dataSnapshot.child(userID).child("medical_history/allergy").getValue(String.class);
         insurance = dataSnapshot.child(userID).child("medical_history/insurance").getValue(String.class);
-        weight = Integer.valueOf(dataSnapshot.child(userID).child("medical_history/weight").getValue(Integer.TYPE));
+        //weight = Integer.valueOf(dataSnapshot.child(userID).child("medical_history/weight").getValue(Integer.class));
         plzspecify= dataSnapshot.child(userID).child("Symptoms/please_specify").getValue(String.class);
         dayssince= dataSnapshot.child(userID).child("Symptoms/days").getValue(String.class);
 
@@ -281,57 +281,31 @@ public class symptom extends AppCompatActivity implements View.OnClickListener {
         cddd.show();
         user_symptoms user_symptoms = new user_symptoms();
         if (rb1.isChecked()){
-            user_symptoms.setS1(s1);
-            symptom[a]=s1;
-            a++;            }
+            user_symptoms.setS1(s1); }
         if (rb2.isChecked()){
-            user_symptoms.setS2(s2);
-            symptom[a]=s2;
-            a++;            }
+            user_symptoms.setS2(s2); }
         if (rb3.isChecked()){
-            user_symptoms.setS3(s3);
-            symptom[a]=s3;
-            a++;            }
+            user_symptoms.setS3(s3); }
         if (rb4.isChecked()){
-            user_symptoms.setS4(s4);
-            symptom[a]=s4;
-            a++;            }
+            user_symptoms.setS4(s4); }
         if (rb5.isChecked()){
-            user_symptoms.setS5(s5);
-            symptom[a]=s5;
-            a++;            }
+            user_symptoms.setS5(s5); }
         if (rb6.isChecked()){
-            user_symptoms.setS6(s6);
-            symptom[a]=s6;
-            a++;            }
+            user_symptoms.setS6(s6); }
         if (rb7.isChecked()){
-            user_symptoms.setS7(s7);
-            symptom[a]=s7;
-            a++;            }
+            user_symptoms.setS7(s7); }
         if (rb8.isChecked()){
-            user_symptoms.setS8(s8);
-            symptom[a]=s8;
-            a++;            }
+            user_symptoms.setS8(s8); }
         if (rb9.isChecked()){
-            user_symptoms.setS9(s9);
-            symptom[a]=s9;
-            a++;            }
+            user_symptoms.setS9(s9); }
         if (rb10.isChecked()){
-            user_symptoms.setS10(s10);
-            symptom[a]=s10;
-            a++;            }
+            user_symptoms.setS10(s10); }
         if (rb11.isChecked()){
-            user_symptoms.setS11(s11);
-            symptom[a]=s11;
-            a++;            }
+            user_symptoms.setS11(s11); }
         if (rb12.isChecked()){
-            user_symptoms.setS12(s12);
-            symptom[a]=s12;
-            a++;            }
+            user_symptoms.setS12(s12); }
         if (rb13.isSelected()){
-            user_symptoms.setS13(s13);
-            symptom[a]=s13;
-            a++;            }
+            user_symptoms.setS13(s13); }
 
 
 
@@ -427,7 +401,7 @@ public class symptom extends AppCompatActivity implements View.OnClickListener {
         canvas.drawText(fname, 20, 40, paint);
         canvas.drawText(dob, 20, 45, paint);
         canvas.drawText(gender, 20, 50, paint);
-        canvas.drawText(String.valueOf(weight), 20, 55, paint);
+       // canvas.drawText(String.valueOf(weight), 20, 55, paint);
         canvas.drawText(contact, 71, 40, paint);
 
         int x = 71, y = 45;

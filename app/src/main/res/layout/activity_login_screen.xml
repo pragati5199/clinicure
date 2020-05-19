@@ -69,6 +69,7 @@
         android:background="@drawable/textbox_style"
         android:drawableRight="@drawable/pass"
         android:hint="@string/pass"
+        android:inputType="textPassword"
         android:paddingLeft="20dp"
         android:paddingRight="20dp"
         android:textColorHint="#c7c7c9"
