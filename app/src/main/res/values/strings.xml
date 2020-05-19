@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">Clinicure</string>
+
+    <!--    Pragati's defining's-->
+    <string name="login">Login</string>
+    <string name="patient_login">Login as Patient</string>
+    <string name="email">Email Address</string>
+    <!--    <string name="pass">Password</string>-->
+    <string name="register">"Don't have a Account! <b> Register </b>"</string>
+    <string name="firstname"> "First Name(eg. Raj)"</string>
+    <string name="Lastname">  "Last Name(eg. Prakash)"</string>
+    <string name="Address">   "Address(house no/land mark)"</string>
+    <string name="dob">       "Age(eg. 25)"</string>
+    <string name="Contact">   "Contact No.(+91)"</string>
+    <string name="altcontact">"Alternate Contact No.(+91)"</string>
+    <string name="profile_text">Your following information will help us to serve you better</string>
+    <string name="medicalhistory">Past Medical History</string>
+    <string name="currentill">Current Illness</string>
+    <string name="Drughis">Drug History</string>
+    <string name="allergy">Allergy</string>
+    <string name="insurance">Insurance</string>
+    <string name="save">Save</string>
+    <string name="next">Next</string>
+    <string name="addhis">Add History</string>
+    <string name="addill">Add Illness</string>
+    <string name="tab">eg. Tab. Diclofinic</string>
+    <string name="dust">eg. from dust</string>
+    <string name="yes">Yes</string>
+    <string name="bloodgrp">Blood Group</string>
+    <string name="no">No</string>
+    <string name="weight">Weight</string>
+    <string name="kg">Weight(in kg)</string>
+    <string name="fever">Fever</string>
+    <string name="bleeding">Bleeding</string>
+    <string name="Vomitting">Vommitting</string>
+    <string name="pain">Pain</string>
+    <string name="infection">Infection</string>
+    <string name="headache">Headache</string>
+    <string name="cold">Cold</string>
+    <string name="iching">Iching</string>
+    <string name="swelling">Swelling</string>
+    <string name="nausea">Nausea</string>
+    <string name="drying">Drying</string>
+    <string name="disenty">Disenty</string>
+    <string name="others">Others</string>
+    <string name="specify">Please Specify</string>
+    <string name="joint_pain">eg. joint paint</string>
+    <string name="time">Since  how many days(Time)</string>
+    <string name="reset">Reset</string>
+    <string name="ext_report">Add Existing Prescription or Report </string>
+    <string name="upload">Upload</string>
+    <string name="date">20 days</string>
+    <string name="forget">Forget Password?</string>
+    <string name="symptoms">Tell us what Suffering &amp; Symptoms</string>
+    <string name="custom"><b>Customise My Package</b></string>
+    <string name="book">Book an Appointment</string>
+    <string name="search">Search a Test</string>
+    <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+    <string name="upipay">UPI(PAY WITH BANK ACCOUNT)               </string>
+    <string name="gpay"><b>Google Pay</b></string>
+    <string name="otherupipay"><b>Other UPI Apps</b></string>
+    <string name="cards">Credit And Debit Cards</string>
+    <string name="addcard"><b>Add Card</b></string>
+    <string name="moreways">More Ways to pay</string>
+    <string name="netbank"><b>Net Banking</b></string>
+    <string name="payontest"><b>Pay on Test</b></string>
+    <string name="giftcard">Add Gift or Promo Code</string>
+    <string name="cont"><b>Continue</b></string>
+
+
+    <!--    <string name="login">Log in</string>-->
+    <string name="singInWith">Sign in with</string>
+    <string name="emailAddress">Email Address</string>
+    <string name="pass">Password</string>
+    <string name="confirmPass">Confirm Password</string>
+    <string name="create_account">Create Account</string>
+    <string name="or">OR</string>
+    <string name="patient">Patient</string>
+    <string name="doctor">Doctor</string>
+    <string name="lab">Lab</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="forgot_password_recover">Forgot Password? Recover</string>
+    <string name="tests">tests</string>
+    <string name="know_more">Know More</string>
+    <string name="reports">reports</string>
+    <string name="videos">videos</string>
+    <string name="teleconsultation">teleconsultation</string>
+    <string name="appointments">appointments</string>
+    <string name="browse_file">Browse File</string>
+
+    <string name="facebook_app_id">241654143740341</string>
+    <string name="fb_login_protocol_scheme">fb241654143740341</string>
+    <string name="filter">Filter</string>
+    <string name="sort">Sort</string>
+    <string name="package_categories">Package Categories</string>
+    <string name="add_location">Add Location</string>
+
+</resources>

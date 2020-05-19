@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/b"
+    android:orientation="vertical"
+    android:weightSum="8"
+    tools:context=".signup">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical">
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="5dp"-->
+<!--            android:gravity="center"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/imageP"-->
+<!--                android:layout_width="51dp"-->
+<!--                android:layout_height="46dp"-->
+<!--                android:layout_margin="12dp"-->
+<!--                android:background="@drawable/iconspatientdoctorsandlab" />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/imageD"-->
+<!--                android:layout_width="51dp"-->
+<!--                android:layout_height="46dp"-->
+<!--                android:background="@drawable/iconspatientdoctorsandlab1"-->
+<!--                android:layout_margin="12dp" />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/imageL"-->
+<!--                android:layout_width="51dp"-->
+<!--                android:layout_height="46dp"-->
+<!--                android:layout_margin="12dp"-->
+<!--                android:background="@drawable/iconspatientdoctorsandlab2" />-->
+
+<!--        </LinearLayout>-->
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:checkedButton="@+id/imageP"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/imageP"
+                android:layout_width="51dp"
+                android:layout_height="46dp"
+                android:layout_margin="12dp"
+                android:background="@drawable/iconspatientdoctorsandlab"
+                android:button="@null"/>
+
+            <RadioButton
+                android:id="@+id/imageD"
+                android:layout_width="51dp"
+                android:layout_height="46dp"
+                android:layout_margin="12dp"
+                android:background="@drawable/iconspatientdoctorsandlab1"
+                android:button="@null"/>
+
+            <RadioButton
+                android:id="@+id/imageL"
+                android:layout_width="51dp"
+                android:layout_height="46dp"
+                android:layout_margin="12dp"
+                android:background="@drawable/iconspatientdoctorsandlab2"
+                android:button="@null"/>
+
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvP"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/patient"
+                android:textAllCaps="true"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/tvD"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/doctor"
+                android:textAllCaps="true"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:visibility="invisible" />
+            <TextView
+                android:id="@+id/tvL"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/lab"
+                android:textAllCaps="true"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:visibility="invisible" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="5" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="visible"
+            android:textColor="@color/dark_grey"
+            android:layout_marginTop="15dp"
+            android:text="@string/singInWith" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/fb_button"
+                android:layout_width="34dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="160dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/fb"
+                android:layout_marginStart="160dp"
+                android:layout_marginEnd="10dp" />
+
+            <ImageView
+                android:id="@+id/gmail_button"
+                android:layout_width="34dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="160dp"
+                android:background="@drawable/gmail"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="160dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:visibility="visible"
+            android:textColor="@color/dark_grey"
+            android:text="@string/or" />
+
+        <EditText
+            android:id="@+id/uname"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/edit_text"
+            android:drawableEnd="@drawable/outline_email"
+            android:drawableRight="@drawable/outline_email"
+            android:hint="@string/emailAddress"
+            android:textColor="@color/black"
+            android:textColorHint="@color/dark_grey"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/pwd"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/edit_text"
+            android:drawableEnd="@drawable/round_visibility"
+            android:drawableRight="@drawable/round_visibility"
+            android:hint="@string/pass"
+            android:textColor="@color/black"
+            android:textColorHint="@color/dark_grey"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/cnfpwd"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="40dp"
+            android:textColor="@color/black"
+            android:background="@drawable/edit_text"
+            android:drawableEnd="@drawable/ic_vpn_key_black_36dp"
+            android:drawableRight="@drawable/ic_vpn_key_black_36dp"
+            android:hint="@string/confirmPass"
+            android:textColorHint="@color/dark_grey"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/signup_button"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttons"
+            android:text="@string/create_account"
+            android:textColor="#c7c7c9" />
+
+        <TextView
+            android:id="@+id/login_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/dark_grey"
+            android:visibility="visible"
+            android:text="Already a member? Login" />
+
+    </LinearLayout>
+
+</LinearLayout>

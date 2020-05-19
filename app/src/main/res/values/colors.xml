@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <color name="colorPrimary">#008577</color>-->
+<!--    <color name="colorPrimaryDark">#00574B</color>-->
+<!--    <color name="colorAccent">#D81B60</color>-->
+
+    <color name="blue_new">#005696</color>
+    <color name="colorPrimary">#005697</color>
+    <color name="colorPrimaryDark">#005697</color>
+    <color name="colorAccent">#005697</color>
+    <color name="themeColor">#005697</color>
+    <color name="white">#ffffff</color>
+    <color name="hint_color">#e4eef0</color>
+    <color name="light_grey">#ebebeb</color>
+    <color name="bluelight">#122955</color>
+    <color name="light_dark_grey">#cccaca</color>
+    <color name="dark_grey">#858585</color>
+
+    <color name="trans_white">#00FFFFFF</color>
+    <color name="transy_white">#CCFFFFFF</color>
+    <color name="green">#5BAE45</color>
+    <color name="green_light">#5BAE45</color>
+    <color name="light_green">#b2dea0</color>
+    <color name="Dark_green">#396729</color>
+    <color name="red">#bc1c2b</color>
+    <color name="black">#000000</color>
+    <color name="light_blue">#004583</color>
+    <color name="dark_blue">#05345e</color>
+    <color name="sky_blue">#dae8ec</color>
+    <color name="sky_blue_light">#E3EDFD</color>
+    <color name="red_dark">#C60024</color>
+    <color name="light_orange">#FFB76F</color>
+    <color name="light_thin_orange">#FFD8AD</color>
+    <color name="shade_green">#9CD684</color>
+    <color name="navy_blue">#007AFF</color>
+    <color name="darker_grey">#343434</color>
+    <color name="nav_drawer_text">#50576a</color>
+    <color name="nav_drawer_background">#1d1f2a</color>
+    <color name="bright_green">#32CD32</color>
+    <color name="pink">#FF69B4</color>
+    <color name="no_show_pink">#ee386d</color>
+    <color name="gray_check_in_list">#C0C0C0</color>
+    <color name="tab_unselect_gray">#bebebe</color>
+    <color name="navigation_unselect">#76819D</color>
+    <color name="mycolor">#363535</color>
+    <color name="myblue">#378bce</color>
+    <color name="mygreen">#76d608</color>
+    <color name="text_color">#c7c7c9</color>
+    <color name="mypurple">#3F057C</color>
+    <color name="payment">#272424</color>
+
+
+
+
+</resources>

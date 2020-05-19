@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1035749830608",
+    "firebase_url": "https://clinicure-diagnostic.firebaseio.com",
+    "project_id": "clinicure-diagnostic",
+    "storage_bucket": "clinicure-diagnostic.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1035749830608:android:3086e94b0ac389639913d5",
+        "android_client_info": {
+          "package_name": "com.example.clinicure"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1035749830608-cl5ilsj83roo0ir0pc8qujrp951ki5lo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMoO4ojMUY9Ja2_6WuVuzQhct5Z7UT_Ao"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1035749830608-cl5ilsj83roo0ir0pc8qujrp951ki5lo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
